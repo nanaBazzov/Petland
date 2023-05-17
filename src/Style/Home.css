@@ -1,7 +1,7 @@
 .hero_section {
     /*background-color: #C3D3D6;*/
     /* background-image: url("https://img.freepik.com/free-photo/still-life-pets-food-assortment_23-2148982370.jpg?w=2000&t=st=1672404397~exp=1672404997~hmac=4449eb5a9847c6332ce4fa366c147edba2e821d313f82af7e086b826d1d09836"); */
-    background-image: url("/Users/nanabaazov/Desktop/My Best Projects/my final project/petLand/petland/src/assets/images/accessories-care-play-with-pet.jpg");
+    background-image: url("../assets/images/accessories-care-play-with-pet.jpg");
     background-size: cover;
     height: 40rem;
 
