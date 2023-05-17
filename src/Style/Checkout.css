@@ -1,0 +1,34 @@
+
+
+
+.user_form .form_group input{
+
+    border: 1px solid lightgray;
+}
+
+
+.checkout_cart{
+    padding: 20px;
+    /*background: #C3D3D6;*/
+    /*background: lightgray;*/
+    border-radius: 5px;
+}
+
+.checkout_cart h6, h4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.checkout_cart h6{
+    margin-bottom: 20px;
+
+}
+
+
+.checkout_cart h4{
+    border-top:1px solid rgba(221,221,221,120);
+    padding-top: 20px;
+}

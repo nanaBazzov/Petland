@@ -1,0 +1,21 @@
+
+
+.auth_form{
+    padding: 40px;
+    border-radius: 5px;
+}
+
+
+.form_group input{
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.auth_form p{
+    margin-top: 30px;
+
+}
+
+/*.auth_form p a{*/
+/*    color: rgba(255,255,255,0.735);*/
+/*}*/

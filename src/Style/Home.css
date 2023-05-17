@@ -1,0 +1,141 @@
+.hero_section {
+    /*background-color: #C3D3D6;*/
+    /* background-image: url("https://img.freepik.com/free-photo/still-life-pets-food-assortment_23-2148982370.jpg?w=2000&t=st=1672404397~exp=1672404997~hmac=4449eb5a9847c6332ce4fa366c147edba2e821d313f82af7e086b826d1d09836"); */
+    background-image: url("/Users/nanabaazov/Desktop/My Best Projects/my final project/petLand/petland/src/assets/images/accessories-care-play-with-pet.jpg");
+    background-size: cover;
+    height: 40rem;
+
+}
+
+
+.hero_content h2 {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+.hero_content p {
+    color: black;
+    line-height: 28px;
+}
+
+.hero_section p:nth-child(1) {
+    font-weight: 500;
+}
+
+.buy_btn {
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: var(--primary-color);
+    /*background-color: #FFF0C8;*/
+    background-color: #FEF3D2;
+    cursor: pointer;
+    font-size: 1rem;
+    display: inline-flex;
+    margin-right: 10px;
+    margin-top: 45px;
+
+
+}
+
+.buy_btn a:hover {
+    color: white;
+}
+
+.hero_content {
+    padding-top: 45px;
+}
+
+.hero_img {
+    width: 160rem;
+    position: center;
+}
+
+.our_sales {
+    padding: 60px;
+    margin-top: 30px;
+}
+
+
+.timer_count {
+    /*background-color: #C3D3D6;*/
+    background-color: lightblue;
+    height: 450px;
+}
+
+
+.timer_count img {
+    width: 65% !important;
+    height: 80% !important;
+    object-fit: contain;
+
+
+}
+
+
+
+@media only screen and (max-width: 992px) {
+
+    .hero_content h2 {
+        font-size: 2rem;
+
+    }
+
+    .section_title {
+        font-size: 1.7rem;
+    }
+
+    .counter_img {
+        display: none;
+    }
+
+    .clock_top-content {
+        text-align: center;
+    }
+
+    .clock_top-content h4 {
+        font-size: 0.9rem !important;
+    }
+
+    .clock_top-content h3 {
+        font-size: 1rem !important;
+    }
+
+    .count_down-col {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .hero_section {
+        width: 50rem;
+        height: 40rem;
+    }
+
+    .hero_content h2 {
+        font-size: 1.6rem;
+    }
+
+    .hero_content p {
+        font-size: 0.9rem;
+    }
+
+    .buy_btn a {
+        font-size: 0.9rem;
+    }
+
+    .section_title {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .hero_content {
+        padding-top: 0;
+        margin-bottom: 40px;
+    }
+}
